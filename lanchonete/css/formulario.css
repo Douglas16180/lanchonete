@@ -1,0 +1,58 @@
+[code]
+
+body{
+margin: 0;
+padding: 0;
+}
+
+form{
+font-size: 16px;
+background: #CCC;
+max-width: 500px;
+margin: 0 auto;
+padding: 0 10px 10px 10px;
+
+}
+
+h1{
+color: #333
+}
+
+input, textarea{
+width: 474px;
+padding: 10px;
+}
+
+.enviar input {
+background-color: #069;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+}
+
+.enviar input:hover{
+background: #078;
+}
+
+.sms input {
+
+   display:flex;
+   flex-flow:row wrap;
+   justify-content:center;
+   align-items:center;
+   text-align: center;
+} 
+
+textarea {
+width: 474px;
+height: 120px;
+line-height: 20px;
+}
+
+[/code]
